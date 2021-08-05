@@ -2,7 +2,7 @@
 
 # This script will download, install and configure Git's first-time values
 
-# Instal Git on Linux
+# Install Git on Linux
 
 sudo add-apt-repository -y ppa:git-core/ppa; sudo apt -y update; sudo apt -y install git; sudo apt -y upgrade
 
