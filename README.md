@@ -6,7 +6,7 @@
 
 [Pro Git Book](https://git-scm.com/book/en/v2)
 
-## How to upload a local repository to GitHub
+## Upload a local repository to GitHub
 
 Run these commands from your project directory:
 
@@ -22,8 +22,32 @@ Run these commands from your project directory:
 >
 > git push -u origin main
 
-## How to clone a GitHub repository to your computer
+## Clone a GitHub repository to your computer
 
 Make sure to **change the current working directory** to the location where you want the cloned directory and run this command after:
 
 > git clone https://github.com/USERNAME/REPOSITORY
+
+## Remove a single file from remote repository only
+
+> git rm --cached file.txt
+
+Commit and push again
+
+## Remove a single folder from remote repository only
+
+> git rm --cached -rf .folder
+
+Commit and push again
+
+## Remove a single file from local and remote repository
+
+> git rm file.txt
+
+Commit and push again
+
+## Remove a single folder from local and remote repository
+
+> git rm -rf .folder
+
+Commit and push again
